@@ -31,7 +31,7 @@ body {
     font-weight: 400;
 }
 
-/* Header styles start */
+/* Header styles */
 
 .header__logo {
     margin-left: 300px;
@@ -47,10 +47,7 @@ a {
     text-decoration: none;
 }
 
-/* Header styles end */
-
-
-/* Content block start */
+/* Content block styles */
 
 /* Text and mobile phone */
 .text__and__mobilephone {
@@ -111,7 +108,7 @@ a {
     margin-top: -25em;
 }
 
-/* Digital security */
+/* Digital security styles*/
 .title__digital__securities {
     font-weight: 600;
     font-size: 45px;
@@ -200,7 +197,7 @@ a {
     padding: 50px;
 }
 
-/* Products section */
+/* Products section styles */
 .title__products {
     font-weight: 600;
     font-size: 45px;
@@ -244,7 +241,7 @@ a {
     margin-top: -32em;
 }
 
-/* Digitize Your Business section */
+/* Digitize Your Business section styles */
 .digitize__your__business {
     background-image: url(/img/Background.png);
     width: 100%;
@@ -302,7 +299,7 @@ a {
     margin-top: -0.4em;
 }
 
-/* Secttion blog */
+/* Secttion blog styles*/
 .blog__title {
     font-weight: 600;
     font-size: 45px;
@@ -357,11 +354,10 @@ a {
     background-color: rgba(46, 204, 113, 1);
     color: rgba(255, 255, 255, 1);
     opacity: 1;
-    /* border: 3px solid rgba(46, 204, 113, 1); */
 }
 
 
-/* Contact Us section */
+/* Contact Us section styles*/
 .contact__us {
     margin-top: 50px;
     background-image: url(/img/Back_rectangle.png);
@@ -438,7 +434,6 @@ strong {
 }
 
 .modal input, textarea {
-    /* width: 300px; */
     border-radius: 5px;
     border: 1px solid rgba(150, 150, 150, 1);
     background-color: transparent;
@@ -456,7 +451,7 @@ strong {
     line-height: 27.24px;
 }
 
-/* Footer section */
+/* Footer section styles*/
 footer {
     background-color: rgba(37, 37, 37, 1);
     width: 100%;
@@ -499,4 +494,95 @@ hr {
     font-style: italic;
 }
 
-/* Content block end */
+
+/* Адаптив под разрешения: 1366px laptop*/
+
+@media (min-width: 1366px) {
+    /* For header */
+    .header__logo {
+        margin-left: 100px;
+    }
+
+    .social__media__links {
+        margin-right: 70px;
+    }
+
+    /* For first block content */
+    .text__and__mobilephone {
+        width: 100%;
+    }
+
+    .wrapper {
+        margin-left: -13em;
+    }
+
+    .mobile__phone {
+        margin-right: -10em;
+    }
+
+    /* Products block */
+    .launchpad__and__marketplace {
+        margin-left: -1em;
+    }
+
+    .mobile__phone__front {
+        padding-left: 680px;
+        margin-top: -28em;
+    }
+
+    /* Digitize Your Business block */
+    .container {
+        width: 300px;
+        height: 300px;
+        margin: 1%;
+    }
+
+    .container__pic {
+        margin-top: 50px;
+        margin-left: 120px;
+        width: 52px;
+        height: 52px;
+    }
+
+    .container__title {
+        font-size: 20px;
+        max-width: 300px;
+        margin-left: 20px;
+    }
+
+    .container__text {
+        max-width: 256px;
+        font-weight: 600;
+        font-size: 17px;
+        text-align: center;
+        margin-left: 10px;
+        margin-top: -0.4em;
+    }
+
+    /* Blog section*/
+    .butt__view__all__news {
+        margin-top: 35px;
+        margin-left: 0em;
+        margin-left: 600px;
+    }
+
+    /* Contact us section */
+    .contact__us__leftblock {
+        padding: 100px;
+        margin-left: 50px;
+    }
+
+    .contact__us__user__data {
+        float: right;
+        margin-right: 0em;
+        margin-right: 100px;
+        margin-top: -18em;
+    }
+}
+
+/* Адаптив под разрешения: 360px mobile phone*/
+@media (max-width: 360px) {
+    /* For header */
+    
+}
+
